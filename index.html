@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Bread</title>
+    <link rel="stylesheet" href="Diseño.css">
+    <link rel="icon" href="IMG/ultimatelogo.png">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+<body>
+    <div class="menu">
+        <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
+        <li style="--i:0;">
+            <a href="#slider"><ion-icon name="home-outline"></ion-icon></a>
+        </li>
+        <li style="--i:1;">
+            <a href="#nosotros"><ion-icon name="body-outline"></ion-icon></a>
+        </li>
+        <li style="--i:2;">
+            <a href="#videos"><ion-icon name="videocam-outline"></ion-icon></a>
+        </li>
+        <li style="--i:3;">
+            <a href="#portafolio"><ion-icon name="images-outline"></ion-icon></a>
+        </li>
+        <li style="--i:4;">
+            <a href="#clientes"><ion-icon name="people-outline"></ion-icon></a>
+        </li>
+        <li style="--i:5;">
+            <a href="#servicio"><ion-icon name="camera-outline"></ion-icon></a>
+        </li>
+        <li style="--i:6;">
+            <a href="#contacto"><ion-icon name="chatbubbles-outline"></ion-icon></a>
+        </li>
+        <li style="--i:7;">
+            <a href="Formulario_AM/index.html"><ion-icon name="folder-outline"></ion-icon></a>
+        </li>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <script>
+        let toggle = document.querySelector('.toggle')
+        let menu = document.querySelector('.menu')
+        toggle.onclick = function(){
+            menu.classList.toggle('active')
+        }
+    </script>
+        <div id="slider">
+            <figure>
+                <img src="IMG/coffe.jpg">
+                <img src="IMG/w3.jpg">
+                <img src="IMG/urban.jpg">
+                <img src="IMG/Woods.jpg">
+                <img src="IMG/coffe.jpg">
+            </figure>
+            <div class="texto-header line anim-typewriter"><p>Coffe_Bread</p></div>
+            <div class="header2"><h2>La Imagen Perfecta</h2></div>
+            <div class="logo"><img src="IMG/ultimatelogo.png" alt=""></div>
+        </div>
+        <div class="header">
+            <!--Waves Container-->
+            <div class="wavem">
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#191919" />
+            </g>
+            </svg>
+            </div>
+            <!--Waves end-->
+            
+            </div>
+
+        <nav id="inicio">
+            <a href="#slider" id="enlace-inicio" class="btn-header">Inicio</a>
+            <a href="#nosotros" id="enlace-nosotros" class="btn-header">Nosotros</a>
+            <a href="#videos" id="enlace-proyectos" class="btn-header">Proyectos</a>
+            <a href="#portafolio" id="enlace-portafolios" class="btn-header">Portafolio</a>
+            <a href="#clientes" id="enlace-clientes" class="btn-header">Clientes</a>
+            <a href="#servicio" id="enlace-servicio" class="btn-header">Servicio</a>
+            <a href="#contacto" id="enlace-contactos" class="btn-header">Contacto</a>
+            <a href="Formulario_AM/index.html">Suscribete</a>
+        </nav>
+
+
+        <!--Hey! This is the original version
+of Simple CSS Waves-->
+
+
+
+        <main>
+            <section class="sobre-nosotros" id="nosotros">
+                <br>
+                <h2 class="titulo">Nuestro Producto</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <div class="imagen-nosotros"><img src="IMG/Icon2.png" alt=""></div>
+                    <div class="contenido-texto">
+                        <h3><span>1</span>Las Mejores Fotos</h3>
+                        <p>
+                            Las Mejores Fotos, tomadas por profesionales y equipo <br>
+                            de la mejor calidad que ofrece colores mas nitidos junto <br>
+                            con una calidad de 4k
+                        </p>
+                        <br>
+                        <h3><span>2</span>La Mejor Edicion</h3>
+                        <p>
+                            Nuestra empresa tambien ofrece la mejor Edicion de imagen <br>
+                            Mejor paleta de colores <br>
+                            Excelente iluminacion <br>
+                            Efectos especiales <br>
+                            Correcion de enfoque de imagen <br>
+                            Y mucho mas
+
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="video" id="videos">
+                <div class="titulov"><p>Proyectos Recientes</p></div>
+                <div class="proyecto" id="proyectos ">
+                <iframe class="videop" width="640" height="360" src="https://www.youtube.com/embed/2kQzfng264w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section class="contenedor-portafolio" id="portafolio">
+                
+            <div class="slider">
+                <h2 class="titulog">Portafolio</h2>
+                <div class="slide">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+                    <input type="radio" name="radio-btn" id="radio6">
+                    <input type="radio" name="radio-btn" id="radio7">
+                    <input type="radio" name="radio-btn" id="radio8">
+                    
+                    <div class="st first">
+                        <img src="IMG/img1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="IMG/icon.png" alt="">
+                            <P>Nuestro Trabajo</P>
+                        </div>
+                    </div>
+    
+                    <div class="st">
+                        <img src="IMG/img2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="IMG/icon.png" alt="">
+                            <P>Nuestro Trabajo</P>
+                        </div>
+                    </div>
+    
+                    <div class="st">
+                        <img src="IMG/img3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="IMG/icon.png" alt="">
+                            <P>Nuestro Trabajo</P>
+                        </div>
+                    </div>
+    
+                    <div class="st">
+                        <img src="IMG/img4.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="IMG/icon.png" alt="">
+                            <P>Nuestro Trabajo</P>
+                        </div>
+                    </div>
+    
+                    <div class="st">
+                        <img src="IMG/img5.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="IMG/icon.png" alt="">
+                            <P>Nuestro Trabajo</P>
+                        </div>
+                    </div>
+    
+                    <div class="st">
+                        <img src="IMG/img6.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="IMG/icon.png" alt="">
+                            <P>Nuestro Trabajo</P>
+                        </div>
+                    </div>
+    
+                    <div class="st">
+                        <img src="IMG/img7.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="IMG/icon.png" alt="">
+                            <P>Nuestro Trabajo</P>
+                        </div>
+                    </div>
+    
+                    <div class="st">
+                        <img src="IMG/img8.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="" alt="">
+                            <P>Nuestro Trabajo</P>
+                        </div>
+                    </div>
+    
+                        <div class="nav-auto">
+                            <div class="a-b1">
+                                <div class="hover-galeria">
+                                    <img src="IMG/icon.png" alt="">
+                                    <P>Nuestro Trabajo</P>
+                                </div>
+                            </div>
+                            <div class="a-b2"></div>
+                            <div class="a-b3"></div>
+                            <div class="a-b4"></div>
+                            <div class="a-b5"></div>
+                            <div class="a-b6"></div>
+                            <div class="a-b7"></div>
+                            <div class="a-b8"></div>
+                        </div>
+
+
+    
+                </div>
+                <div class="nav-m">
+                    <label for="radio1" class="m-btn"></label>
+                    <label for="radio2" class="m-btn"></label>
+                    <label for="radio3" class="m-btn"></label>
+                    <label for="radio4" class="m-btn"></label>
+                    <label for="radio5" class="m-btn"></label>
+                    <label for="radio6" class="m-btn"></label>
+                    <label for="radio7" class="m-btn"></label>
+                    <label for="radio8" class="m-btn"></label>      
+                </div>
+            </div>
+
+            </section>
+
+            <section class="clientes-contenedor" id="clientes">
+                <p class="tituloc">Lo que dicen nuestros clientes</p>
+                <div class="cards">
+                    <div class="card">
+                    <img src="IMG/deltoro.jpg" alt="">
+                    <div class="contenido-card">
+                        <h4>Guillermo del Toro</h4>
+                        <p>
+                            Coffe Bread es perfecto para mi estudio, es lo que <br>
+                            mis peliculas necesitan, el color, la iluminacion, todo <br>
+                            hacen que todos mis proyectos tengan vida. <br>
+                            Totalmente recomendado
+
+                        </p>
+                    </div>
+                    </div>
+
+                <div class="card2">
+                    <img src="IMG/burton2.jpg" alt="">
+                    <div class="contenido-card">
+                        <h4>Tim Burton</h4>
+                        <p>
+                            Coffe Bread, es unico, son los unicos que entienden <br>
+                            como quiero mis escenas con un tono oscuro, <br>
+                            no es como los otros estudios, y con la animacion<br>
+                            stop-motion son de gran ayuda, hace que sea mas facil<br>
+                            grabar 
+
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <section class="acerca-de" id="servicio">
+                <div class="contenedor">
+                    <h2 class="titulo"> Nuestro servicio</h2>
+                    <div class="servicio-cont">
+                        <div class="servicio-ind">
+                            <img src="IMG/estadistica.png" alt="">
+                            <div class="cont-text">
+                            <h3>Estadistica</h3>
+                            
+                            <p>
+                                Coffe Bread es la mejor eleccion <br>
+                                que puedes hacer la mayoria de <br>
+                                la gente prefiere nuestro servicio  <br>
+                                por el precio y calidad <br>
+                            </p>
+                        </div>
+                        </div>
+
+                        <div class="servicio-ind">
+                            <img src="IMG/comunicacion.png" alt="">
+                            <div class="cont-text">
+                            <h3>Comunicacion</h3>
+                            <p>
+                                Mantente siempre comunicado con <br>
+                                nosotros en todo momento <br>
+                                responderemos inmediatamente <br>
+                                cualquier duda <br>
+                            </p>
+                        </div>
+                        </div>
+
+                        <div class="servicio-ind">
+                            <img src="IMG/vamos.png" alt="">
+                            <div class="cont-text">
+                            <h3>Vamos mas alla</h3>
+                            <p>
+                                Somos un gran negocio en <br>
+                                crecimiento, llevamos años <br>
+                                de esperiencia, es por eso <br>
+                                que no se arrepentira de nuestro <br>
+                                servicio
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="contacto">
+            <div class="contenedor-footer">
+                <div class="content-foot">
+                    <h4>Telefono</h4>
+                    <p>493 798 99 05</p>
+                </div>
+                <div class="content-foot">
+                    <h4>Email</h4>
+                    <p>Coffe_Bread@GMAIL.COM</p>
+                </div>
+                <div class="content-foot">
+                    <h4>Direccion </h4>
+                    <p>Los Angeles</p>
+                </div>
+            </div>
+            <H2 class="titulo-final"> &copy: Coffe_Bread 2022</H2>
+        </footer>
+
+
+</body>
+</html>
